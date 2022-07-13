@@ -313,7 +313,7 @@ h2{
 .footer{
     
     grid-area: footer;
-    width: 100%;
+    width: auto;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -423,6 +423,11 @@ h4{
         height: 100px;
         flex-direction: column;
     }
+
+    .section2{
+        width: auto;
+    }
 }
+
 
 

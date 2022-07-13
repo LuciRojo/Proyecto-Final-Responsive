@@ -344,34 +344,43 @@ h4{
 
    /* Media */
 
-/* .conteiner {  
-    background-color: aqua; 
-} */
-
 @media screen and (max-width: 768px) {
-   .main{
-    grid-template-areas: 
-    "aside aside aside aside"
-    "section1 section1 section1 section1"
-    "article article article article"
-    "section2 section2 section2 section2 "; 
-   }
+    body{
+        background-repeat: repeat;
+     }
 
-   .aside{
-   flex-direction: row;
-   width: auto;
-   height: 100%;
-
+    .aside{
+        flex-direction: row;
+        width: auto;
+        height: 100%;
+     
     }
     .abtn {
-        display: none;
+             display: none;
+    }
+     
+    .abtn1{
+             display: none;
     }
 
-    .abtn1{
-        display: none;
-    }
-    
- body{
-    background-repeat: repeat;
- }
+    .main{
+    grid-template-areas: 
+    "aside aside"
+    "section1 section1"
+    "article article"
+    "article article"
+    "article article"
+    "article article"
+    "section2 section2 "; 
+   }
+
+   .article{
+    grid-template-columns: repeat(2,1fr);
+    height: auto;
+   }
+  
+   iframe{
+    margin-top: 5px;
+}
+ 
 }

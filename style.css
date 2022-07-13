@@ -344,7 +344,7 @@ h4{
 
    /* Media */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     body{
         background-repeat: repeat;
      }
@@ -366,21 +366,21 @@ h4{
     .main{
     grid-template-areas: 
     "aside aside"
-    "section1 section1"
-    "article article"
-    "article article"
-    "article article"
     "article article"
     "section2 section2 "; 
    }
 
    .article{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     height: auto;
    }
   
    iframe{
-    margin-top: 5px;
+    margin-top: 15px;
 }
  
+    .section1{
+        display: none;
+    }
 }
+

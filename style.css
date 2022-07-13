@@ -343,7 +343,6 @@ h4{
 /* Fin de arreglos de main */
 
    /* Media */
-
 @media screen and (max-width: 640px) {
     body{
         background-repeat: repeat;
@@ -413,23 +412,18 @@ h4{
     }
 
     h2{
-        width: auto;
-        height: auto;
-        font-size: 12px;
-        display: flex;
-        justify-content: start;
-        align-content: flex-start;
+       display: none;
     }
 
     .registro{
-        width: auto;
+        width: 0 auto;
         height: 100px;
-        flex-direction: column;
     }
 
     .section2{
         width: auto;
     }
 }
+
 
 

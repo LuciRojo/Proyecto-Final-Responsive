@@ -344,15 +344,31 @@ h4{
 
    /* Media */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
     body{
         background-repeat: repeat;
      }
+     .nav{
+        padding: 0;
+        justify-content: center;
+     }
+
+     .nav-logo{
+        width: 75px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .btnb{
+        display: none;
+    }
 
     .aside{
         flex-direction: row;
         width: auto;
-        height: 100%;
+        height: 110%;
      
     }
     .abtn {
@@ -370,9 +386,16 @@ h4{
     "section2 section2 "; 
    }
 
+   .title{
+    font-size: 19px;   
+}
    .article{
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     height: auto;
+   }
+
+   .buscar{
+    display: none;
    }
   
    iframe{
@@ -382,5 +405,24 @@ h4{
     .section1{
         display: none;
     }
+
+
+    .footer{
+        width: auto;
+    height: auto;
+    }
+
+    h2{
+        width: auto;
+        height: auto;
+        font-size: 25px;
+    }
+
+    .registro{
+        width: auto;
+        height: 100px;
+        flex-direction: column;
+    }
 }
+
 
